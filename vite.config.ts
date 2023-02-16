@@ -23,6 +23,10 @@ export default defineConfig({
                 find: "@lib",
                 replacement: resolve(__dirname, "src", "lib"),
             },
+            {
+                find: "@context",
+                replacement: resolve(__dirname, "src", "context"),
+            },
         ],
     },
 });
