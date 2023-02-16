@@ -1,7 +1,9 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import SiteLayout from "@pages/Layouts/SiteLayout";
+
 import Rent from "@pages/Rent";
+import NotFound from "@pages/NotFound";
 
 export const router = createBrowserRouter([
     {
@@ -15,10 +17,10 @@ export const router = createBrowserRouter([
                 path: "/rent",
                 element: <Rent />,
             },
-            {
-                path: "*",
-                element: <h1>404 Not Found</h1>,
-            },
         ],
+    },
+    {
+        path: "*",
+        element: <NotFound />,
     },
 ]);
