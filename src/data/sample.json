@@ -14,7 +14,7 @@
             "w": 5,
             "l": 7
         },
-        "price": "2095",
+        "price": 2095,
         "isPopular": true,
         "type": "houses"
     },
@@ -33,7 +33,7 @@
             "w": 6,
             "l": 7.5
         },
-        "price": "2700",
+        "price": 2700,
         "isPopular": true,
         "type": "houses"
     },
@@ -52,7 +52,7 @@
             "w": 8,
             "l": 20
         },
-        "price": "4550",
+        "price": 4550,
         "isPopular": true,
         "type": "houses"
     },
@@ -71,7 +71,7 @@
             "w": 5,
             "l": 7
         },
-        "price": "2095",
+        "price": 2095,
         "type": "villas"
     },
     {
@@ -89,7 +89,7 @@
             "w": 6,
             "l": 7.5
         },
-        "price": "2700",
+        "price": 2700,
         "type": "mansions"
     },
     {
@@ -107,7 +107,7 @@
             "w": 8,
             "l": 20
         },
-        "price": "4550",
+        "price": 4550,
         "type": "mansions"
     }
 ]
