@@ -19,6 +19,10 @@ export default defineConfig({
                 find: "@data",
                 replacement: resolve(__dirname, "src", "data"),
             },
+            {
+                find: "@lib",
+                replacement: resolve(__dirname, "src", "lib"),
+            },
         ],
     },
 });
