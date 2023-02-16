@@ -14,13 +14,18 @@ export default function Filter() {
 
     // Locations
     const locations = useMemo(() => {
-        return getList(
+        const data = getList(
             properties,
             ({ address: { state, country } }) => {
                 return `${state}, ${country}`;
             },
             "All",
         );
+        const all = data[0];
+        return [
+            all,
+            ...data.slice(1).sort((a, b) => (a.label >= b.label ? 1 : -1)),
+        ];
     }, []);
     const [selectedLocationId, setSelectedLocationId] = useState(
         locations[0].id,
@@ -28,7 +33,8 @@ export default function Filter() {
 
     // Bedrooms
     const bedrooms = useMemo(() => {
-        return getList(properties, ({ bedrooms }) => bedrooms, "All");
+        const data = getList(properties, ({ bedrooms }) => bedrooms, "All");
+        return data.sort((a, b) => a.label - b.label);
     }, []);
     const [selectedBedroomId, setSelectedBedroomId] = useState(bedrooms[0].id);
 
@@ -37,7 +43,12 @@ export default function Filter() {
 
     // Property Types
     const propertyTypes = useMemo(() => {
-        return getList(properties, ({ type }) => type, "All");
+        const data = getList(properties, ({ type }) => type, "All");
+        const all = data[0];
+        return [
+            all,
+            ...data.slice(1).sort((a, b) => (a.label >= b.label ? 1 : -1)),
+        ];
     }, []);
     const [selectedTypeId, setSelectedTypeId] = useState(propertyTypes[0].id);
 

@@ -1,113 +1,401 @@
 [
     {
         "id": 1,
-        "name": "Palm Harbor",
-        "address": {
-            "full": "2699 Green Valley, Highland Lake, FL",
-            "state": "Florida",
-            "country": "USA"
-        },
-        "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "area": {
-            "w": 5,
-            "l": 7
-        },
-        "price": 2095,
+        "name": "dolor vel est donec",
+        "image": "https://images.unsplash.com/photo-1566908829550-e6551b00979b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+        "price": 9067,
+        "bedrooms": 15,
+        "bathrooms": 11,
         "isPopular": true,
-        "type": "houses"
+        "type": "mansion",
+        "address": {
+            "full": "314, New Castle Crossing, Oh",
+            "state": "Ohio",
+            "country": "US"
+        },
+        "area": {
+            "w": 42,
+            "l": 37
+        }
     },
     {
         "id": 2,
-        "name": "Beverly Springfield",
-        "address": {
-            "full": "2821 Lake Sevilla, Palm Harbor, TX",
-            "state": "Texas",
-            "country": "USA"
-        },
-        "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "bedrooms": 4,
-        "bathrooms": 2,
-        "area": {
-            "w": 6,
-            "l": 7.5
-        },
-        "price": 2700,
+        "name": "sed interdum venenatis",
+        "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "price": 8281,
+        "bedrooms": 5,
+        "bathrooms": 11,
         "isPopular": true,
-        "type": "houses"
+        "type": "villa",
+        "address": {
+            "full": "015, Mayer Terrace, OH",
+            "state": "Ohio",
+            "country": "US"
+        },
+        "area": {
+            "w": 40,
+            "l": 50
+        }
     },
     {
         "id": 3,
-        "name": "Faulkner Ave",
+        "name": "lectus in est",
+        "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 4968,
+        "bedrooms": 10,
+        "bathrooms": 6,
+        "isPopular": false,
+        "type": "house",
         "address": {
-            "full": "909 Woodland St. Michigan, IN",
-            "state": "Indiana",
-            "country": "USA"
+            "full": "89459, Eliot Place, AL",
+            "state": "Alaska",
+            "country": "US"
         },
-        "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "bedrooms": 4,
-        "bathrooms": 3,
         "area": {
-            "w": 8,
-            "l": 20
-        },
-        "price": 4550,
-        "isPopular": true,
-        "type": "houses"
+            "w": 37,
+            "l": 48
+        }
     },
     {
         "id": 4,
-        "name": "Palm Harbor",
+        "name": "porta volutpat",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 4619,
+        "bedrooms": 15,
+        "bathrooms": 3,
+        "isPopular": false,
+        "type": "villa",
         "address": {
-            "full": "2699 Green Valley, Highland Lake, FL",
+            "full": "7, Corry Road, FL",
             "state": "Florida",
-            "country": "USA"
+            "country": "US"
         },
-        "image": "https://images.unsplash.com/photo-1505843795480-5cfb3c03f6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuc2lvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "bedrooms": 3,
-        "bathrooms": 2,
         "area": {
-            "w": 5,
-            "l": 7
-        },
-        "price": 2095,
-        "type": "villas"
+            "w": 46,
+            "l": 41
+        }
     },
     {
         "id": 5,
-        "name": "Beverly Springfield",
+        "name": "morbi quis tortor",
+        "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 9556,
+        "bedrooms": 13,
+        "bathrooms": 3,
+        "isPopular": true,
+        "type": "mansion",
         "address": {
-            "full": "2821 Lake Sevilla, Palm Harbor, TX",
-            "state": "Texas",
-            "country": "USA"
+            "full": "18331, Larry Court, FL",
+            "state": "Florida",
+            "country": "US"
         },
-        "image": "https://images.unsplash.com/photo-1578439297699-eb414262c2de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFuc2lvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "bedrooms": 4,
-        "bathrooms": 2,
         "area": {
-            "w": 6,
-            "l": 7.5
-        },
-        "price": 2700,
-        "type": "mansions"
+            "w": 50,
+            "l": 19
+        }
     },
     {
         "id": 6,
-        "name": "Faulkner Ave",
+        "name": "volutpat in congue",
+        "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "price": 5880,
+        "bedrooms": 13,
+        "bathrooms": 14,
+        "isPopular": false,
+        "type": "house",
         "address": {
-            "full": "909 Woodland St. Michigan, IN",
-            "state": "Indiana",
-            "country": "USA"
+            "full": "87, Pine View Center, TX",
+            "state": "Texas",
+            "country": "US"
         },
-        "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlsbGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "bedrooms": 4,
-        "bathrooms": 3,
         "area": {
-            "w": 8,
-            "l": 20
+            "w": 32,
+            "l": 32
+        }
+    },
+    {
+        "id": 7,
+        "name": "dolor sit amet",
+        "image": "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        "price": 7601,
+        "bedrooms": 12,
+        "bathrooms": 4,
+        "isPopular": true,
+        "type": "mansion",
+        "address": {
+            "full": "6, Armistice Place, GA",
+            "state": "Georgia",
+            "country": "US"
         },
-        "price": 4550,
-        "type": "mansions"
+        "area": {
+            "w": 19,
+            "l": 16
+        }
+    },
+    {
+        "id": 8,
+        "name": "in imperdiet et",
+        "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 8475,
+        "bedrooms": 10,
+        "bathrooms": 7,
+        "isPopular": true,
+        "type": "house",
+        "address": {
+            "full": "4, Springview Center, HI",
+            "state": "Hawaii",
+            "country": "US"
+        },
+        "area": {
+            "w": 20,
+            "l": 16
+        }
+    },
+    {
+        "id": 9,
+        "name": "penatibus et",
+        "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        "price": 1641,
+        "bedrooms": 5,
+        "bathrooms": 10,
+        "isPopular": false,
+        "type": "mansion",
+        "address": {
+            "full": "09, Bashford Junction, ID",
+            "state": "Idaho",
+            "country": "US"
+        },
+        "area": {
+            "w": 14,
+            "l": 48
+        }
+    },
+    {
+        "id": 10,
+        "name": "sed lacus morbi",
+        "image": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
+        "price": 5310,
+        "bedrooms": 8,
+        "bathrooms": 14,
+        "isPopular": true,
+        "type": "villa",
+        "address": {
+            "full": "418, Holmberg Street, ID",
+            "state": "Idaho",
+            "country": "US"
+        },
+        "area": {
+            "w": 14,
+            "l": 4
+        }
+    },
+    {
+        "id": 11,
+        "name": "vitae ipsum",
+        "image": "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 6614,
+        "bedrooms": 8,
+        "bathrooms": 6,
+        "isPopular": false,
+        "type": "villa",
+        "address": {
+            "full": "7, Maple Point, HI",
+            "state": "Hawaii",
+            "country": "US"
+        },
+        "area": {
+            "w": 27,
+            "l": 13
+        }
+    },
+    {
+        "id": 12,
+        "name": "eros vestibulum ac",
+        "image": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 6178,
+        "bedrooms": 7,
+        "bathrooms": 9,
+        "isPopular": false,
+        "type": "house",
+        "address": {
+            "full": "8131, Esker Way, GA",
+            "state": "Georgia",
+            "country": "US"
+        },
+        "area": {
+            "w": 11,
+            "l": 45
+        }
+    },
+    {
+        "id": 13,
+        "name": "vivamus tortor",
+        "image": "https://images.unsplash.com/photo-1593714604578-d9e41b00c6c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "price": 7761,
+        "bedrooms": 13,
+        "bathrooms": 10,
+        "isPopular": false,
+        "type": "villa",
+        "address": {
+            "full": "09, Ronald Regan Circle, TX",
+            "state": "Texas",
+            "country": "US"
+        },
+        "area": {
+            "w": 33,
+            "l": 36
+        }
+    },
+    {
+        "id": 14,
+        "name": "magna bibendum",
+        "image": "https://images.unsplash.com/photo-1608058204446-1cf0f7d11d38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 9841,
+        "bedrooms": 6,
+        "bathrooms": 14,
+        "isPopular": true,
+        "type": "mansion",
+        "address": {
+            "full": "2084, Hovde Circle, TX",
+            "state": "Texas",
+            "country": "US"
+        },
+        "area": {
+            "w": 30,
+            "l": 47
+        }
+    },
+    {
+        "id": 15,
+        "name": "scelerisque mauris",
+        "image": "https://images.unsplash.com/photo-1597211833712-5e41faa202ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+        "price": 2814,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "isPopular": false,
+        "type": "villa",
+        "address": {
+            "full": "33841 Dahle Court, GA",
+            "state": "Georgia",
+            "country": "US"
+        },
+        "area": {
+            "w": 49,
+            "l": 36
+        }
+    },
+    {
+        "id": 16,
+        "name": "sed lacus morbi",
+        "image": "https://images.unsplash.com/photo-1621620844255-4b0d09b12c3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+        "price": 4839,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "isPopular": true,
+        "type": "mansion",
+        "address": {
+            "full": "12017 Ilene Circle, HI",
+            "state": "Hawaii",
+            "country": "US"
+        },
+        "area": {
+            "w": 13,
+            "l": 24
+        }
+    },
+    {
+        "id": 17,
+        "name": "parturient nascetur",
+        "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 512,
+        "bedrooms": 14,
+        "bathrooms": 2,
+        "isPopular": false,
+        "type": "house",
+        "address": {
+            "full": "3327, Gulseth Lane, ID",
+            "state": "Idaho",
+            "country": "US"
+        },
+        "area": {
+            "w": 19,
+            "l": 21
+        }
+    },
+    {
+        "id": 18,
+        "name": "ligula eleifend pede",
+        "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=978&q=80",
+        "price": 427,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "isPopular": true,
+        "type": "house",
+        "address": {
+            "full": "006, Michigan Parkway, FL",
+            "state": "Florida",
+            "country": "US"
+        },
+        "area": {
+            "w": 3,
+            "l": 21
+        }
+    },
+    {
+        "id": 19,
+        "name": "quisque id justo",
+        "image": "https://images.unsplash.com/photo-1543489822-c49534f3271f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        "price": 2302,
+        "bedrooms": 7,
+        "bathrooms": 14,
+        "isPopular": false,
+        "type": "villa",
+        "address": {
+            "full": "8, Haas Way, AL",
+            "state": "Alaska",
+            "country": "US"
+        },
+        "area": {
+            "w": 21,
+            "l": 12
+        }
+    },
+    {
+        "id": 20,
+        "name": "eros elementum",
+        "image": "https://images.unsplash.com/photo-1521543387600-c745f8e83d77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 6819,
+        "bedrooms": 10,
+        "bathrooms": 1,
+        "isPopular": false,
+        "type": "mansion",
+        "address": {
+            "full": "78, Gateway Crossing, AL",
+            "state": "Alaska",
+            "country": "US"
+        },
+        "area": {
+            "w": 6,
+            "l": 33
+        }
+    },
+    {
+        "id": 21,
+        "name": "vestibulum proin",
+        "image": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+        "price": 376,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "isPopular": true,
+        "type": "house",
+        "address": {
+            "full": "1, Dryden Lane, OH",
+            "state": "Ohio",
+            "country": "US"
+        },
+        "area": {
+            "w": 39,
+            "l": 43
+        }
     }
 ]
