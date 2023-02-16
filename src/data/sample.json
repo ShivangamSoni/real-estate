@@ -8,7 +8,7 @@
             "country": "USA"
         },
         "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "beds": 3,
+        "bedrooms": 3,
         "bathrooms": 2,
         "area": {
             "w": 5,
@@ -27,7 +27,7 @@
             "country": "USA"
         },
         "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "beds": 4,
+        "bedrooms": 4,
         "bathrooms": 2,
         "area": {
             "w": 6,
@@ -46,7 +46,7 @@
             "country": "USA"
         },
         "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "beds": 4,
+        "bedrooms": 4,
         "bathrooms": 3,
         "area": {
             "w": 8,
@@ -65,7 +65,7 @@
             "country": "USA"
         },
         "image": "https://images.unsplash.com/photo-1505843795480-5cfb3c03f6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuc2lvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "beds": 3,
+        "bedrooms": 3,
         "bathrooms": 2,
         "area": {
             "w": 5,
@@ -83,7 +83,7 @@
             "country": "USA"
         },
         "image": "https://images.unsplash.com/photo-1578439297699-eb414262c2de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFuc2lvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "beds": 4,
+        "bedrooms": 4,
         "bathrooms": 2,
         "area": {
             "w": 6,
@@ -101,7 +101,7 @@
             "country": "USA"
         },
         "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlsbGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "beds": 4,
+        "bedrooms": 4,
         "bathrooms": 3,
         "area": {
             "w": 8,
