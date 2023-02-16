@@ -11,11 +11,11 @@ export default function Search() {
     }
 
     return (
-        <div className="flex items-center justify-between">
-            <h1 className="text-slate-900 font-semibold text-5xl">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+            <h1 className="text-slate-900 font-semibold text-2xl sm:text-4xl md:text-6xl">
                 Search properties to rent
             </h1>
-            <form onSubmit={handleSubmit} className="relative">
+            <form onSubmit={handleSubmit} className="relative w-full lg:w-auto">
                 <input
                     type="search"
                     onChange={(e) => setQuery(e.target.value)}
