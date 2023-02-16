@@ -4,7 +4,7 @@ import { NavLink } from "./common/Link";
 export default function Header() {
     return (
         <header className="flex shadow-sm py-6">
-            <div className="max-w-7xl w-11/12 m-auto flex items-center justify-start gap-6">
+            <div className="max-w-7xl w-[98%] m-auto flex items-center justify-start gap-6">
                 <h1 className="text-violet-900 text-2xl font-bold">Estatery</h1>
                 <div className="flex items-center justify-between gap-6 flex-1">
                     <nav>
