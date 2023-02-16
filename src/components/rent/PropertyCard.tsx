@@ -5,7 +5,6 @@ import { RxDimensions as AreaIcon } from "react-icons/rx";
 
 import { currencyFormatter } from "@lib/currencyFormatter";
 import { Link } from "@components/common/Link";
-import Button from "@components/common/Button";
 
 interface IPropertyCard {
     id: number;
@@ -56,12 +55,12 @@ export default function PropertyCard({
                     <span className="text-slate-400 font-semibold capitalize text-sm">
                         {address}
                     </span>
-                    <Button
+                    <button
                         className="absolute top-1 right-1 p-2 outline-transparent border bg-white text-violet-500 rounded-full hover:border-violet-500 hover:bg-violet-50 focus-visible:border-violet-500 focus-visible:bg-violet-50"
                         title="Add to Favorite"
                     >
                         <HeartIcon className="w-5 h-5" />
-                    </Button>
+                    </button>
                 </div>
                 <div className="flex items-center justify-between pt-4 mt-4">
                     <span className="flex items-center gap-1">

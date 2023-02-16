@@ -6,12 +6,12 @@ export default forwardRef<
         React.ButtonHTMLAttributes<HTMLButtonElement>,
         HTMLButtonElement
     > & { variant?: "outlined" | "filled" }
->(function Button({ children, variant = "filled", ...props }, ref) {
+>(function Button({ children, variant = "filled", className, ...props }, ref) {
     return (
         <button
             className={`border-2 border-slate-100 bg-transparent rounded-md py-2 px-4 transition-colors disabled:bg-gray-500 ${
                 variant === "filled" ? FilledClasses : OutlinedClasses
-            }`}
+            } ${className}`}
             ref={ref}
             {...props}
         >
