@@ -1,5 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
+
 import SiteLayout from "@pages/Layouts/SiteLayout";
+import Rent from "@pages/Rent";
 
 export const router = createBrowserRouter([
     {
@@ -11,7 +13,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/rent",
-                element: <h1>Rent</h1>,
+                element: <Rent />,
             },
             {
                 path: "*",
